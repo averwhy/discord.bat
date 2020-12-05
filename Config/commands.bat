@@ -13,4 +13,9 @@ goto:eof
 call s.bat sendMessage "Made using `discord.bat` (Yes, it's real)"
 goto:eof
 
+:i
+:: This is an alias for the info command!
+goto info
+goto:eof
+
 :exit

@@ -1,6 +1,6 @@
 # discord.bat
 the BEST discord lib
-
+This is averwhys fork. The parent repo is archived so i'll be contributing to it here.
 ***
 
 # Examples
@@ -32,6 +32,11 @@ goto:eof
 
 :info
 call s.bat sendMessage "Made using `discord.bat` (Yes, it's real)"
+goto:eof
+
+:i
+:: This is an alias for the info command!
+goto info
 goto:eof
 
 :exit
